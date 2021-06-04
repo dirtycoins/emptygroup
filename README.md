@@ -27,7 +27,7 @@ Lý do, mình thực hiện kiểm tra trang này là do yêu cầu của một 
 
 Có nhiều cách để kiểm tra những thông số trên, từ thủ công cho đến công cụ hoặc các đặc điểm nhận dạng. Ở đây, tớ dùng cách thủ công đó là kiểm tra `robots.txt` và viewsource <("). Để kiểm tra file `robots.txt` thì hãy thêm phần ```/robots.txt``` vào web nhé.
 
-![](https://github.com/dirtycoins/emptygroup/blob/main/1.png)
+![](https://github.com/dirtycoins/emptygroup/blob/main/1.png) 
 
 Theo hình ta thấy, cấu trúc này nó `disallow` path `/administrator/` nếu các bạn đã từng kiểm tra nhiều thì chỉ cần nhìn phần này ta có thể đoán được đây là mã nguồn Joomla rồi. Thử truy cập vào path `/administrator` này để ta có thể biết rõ mã nguồn gì nhé. 
 
