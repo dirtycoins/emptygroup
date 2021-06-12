@@ -9,7 +9,7 @@ Bên cạnh việc truy vấn từ google có thể tiết lộ các lỗ hổng
 
 ## Truy vấn nâng cao cho Search Engine Google!
 
-Việc truy vấn cao cấp cho phép bạn có được kết quả tìm kiếm cụ thể hơn từ các truy vấn của bạn, hầu hết đều là các kết quả có liên quan và hữu ích nhât.(*Mình phải công nhận Google đã xây dựng nên một bộ công cụ tìm kiếm không chỉ giúp ích cho người dùng cuối :D*).
+Việc truy vấn cao cấp cho phép bạn có được kết quả tìm kiếm cụ thể hơn từ các truy vấn của bạn, hầu hết đều là các kết quả có liên quan và hữu ích nhât.(*Mình phải công nhận Google đã xây dựng nên một bộ công cụ tìm kiếm không chỉ giúp ích cho người dùng cuối 😧 *).
 Ví dụ bạn có thể sử dụng các truy vấn để có được các tập tin mà bạn cần chỉ xuất phát từ một hoặc một vài trang web nào đó. Điều này có thể được thể hiện bằng cách truy vấn trên Google cho một tên miền sử dụng `site:tld`.
 Ví dụ bạn có thể sử dụng: `site:vn filetype: pdf`
 
@@ -41,4 +41,17 @@ Có nhiều cách để tìm kiếm username và password người dùng thông 
 
 Có nhiều cách để tìm kiếm username và password người dùng thông qua các truy vấn của Google. Ví dụ bạn có thể tìm kiếm các file sql có chứa các dữ liệu của các trang web.
 
+![image](https://user-images.githubusercontent.com/53977417/121766020-50158100-cb79-11eb-859c-22615bf93412.png)
 
+![image](https://user-images.githubusercontent.com/53977417/121766097-d7fb8b00-cb79-11eb-8706-43b41ce60275.png)
+
+Điều này sẽ tìm kiếm cơ sở dữ liệu đã lưu vào các trang web có URL chứa các từ sao lưu và wp-content. Wp-content là thư mục mà người sử dụng và một số plugin tải lên tập tin của họ trong các CMS WordPress phổ biến mà nhiều trang web đang được xây dựng, và backup có khả năng có thể lọc kết quả cho người dùng.
+Có rất nhiều các tập tin được sử dụng bởi các loại khác nhau của phần mềm có chứa danh sách tên người dùng và mật khẩu.
+
+### Xác định thông tin phiên bản!
+
+Truy vấn như intitle:index.of server.at có thể xác định danh sách thư mục với một số thông tin máy chủ được thể hiện trong danh sách này bởi mặc định trong các máy chủ web như Apache. Ví dụ, một tìm kiếm cho intitle:index.of server.at site:somewebsite.edu tiết lộ các phần mềm đặc biệt server (Apache), phiên bản của nó và hệ điều hành của máy nó là như đã thấy trong hình dưới đây.
+
+![image](https://user-images.githubusercontent.com/53977417/121766197-94ede780-cb7a-11eb-84b2-599096870249.png)
+
+Qua đó, ta có thể thấy rằng có thể tìm kiếm các trang web đang sử dụng các phần mềm, ứng dụng bị lỗi. Công việc này tưởng chừng như vô nghĩa và thường bị các newbie bỏ qua. Sau đó bạn sẽ thấy rằng một phiên bản PHP 5.2 và phiên bản PHP 5.6 nó lỗi tè le như thế nào. 🔢 
