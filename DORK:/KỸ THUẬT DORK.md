@@ -19,7 +19,7 @@ Dưới đây là một số operator mình hay sử dụng, hôm qua trong bu�
 | :------------: | :------------: | :------------: |
 |intitle: | Tìm kiếm trong phần title của trang web	  | intitle:index.of inurl:hits  |
 |inurl:   | Tìm kiếm với url đường dẫn trang web   | inurl:.ssh intitle:index.of authorized_keys|
-|intext: | Tìm kiếm với phần nội dụng của web(Phần nội dung thường được truy cập bởi người dùng)	  | inurl:”server-status”  |
+|intext: | Tìm kiếm với phần nội dụng của web(Phần nội dung thường được truy cập bởi người dùng)	  | intext:”server-status”  |
 |allintext:/allinurl:/allintitle:	 | Cái này hơi phức tạp. Đại loại là nó làm việc tương tự với những cái phía trên	  | allintitle:Welcome to Windows XP Server Internet Services  |
 |filetype:| Giới hạn các loại tập tin mong muốn (*:D. Cái này các bạn vừa thấy ở trên*)	  | filetype: xls intext:email intext: password|
 | site:  | Giới hạn kết quả các trang web đã cho.	  | intitle:”index.of” site:mit.edu|
