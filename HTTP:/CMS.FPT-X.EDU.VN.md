@@ -6,6 +6,7 @@ Lý do, mình thực hiện kiểm tra trang này là do yêu cầu của một 
 
 ![](https://media.giphy.com/media/QVhQUlQifO3ZId3QVv/giphy.gif)
 
+
 ## 1. XÁC ĐỊNH CÁC THÔNG SỐ CƠ BẢN
 
 Để có thể giải quyết cái bài toán trên của cậu bạn kia, chúng ta cần phải thu thập thông tin, xác định các thông số cơ bản và đánh giá sau đó đưa ra cách thức để kiểm tra phù hợp với mục tiêu. Cụ thể các thông số cơ bản trong bài này chúng ta cần tìm hiểu là:
@@ -27,15 +28,15 @@ Lý do, mình thực hiện kiểm tra trang này là do yêu cầu của một 
 
 Có nhiều cách để kiểm tra những thông số trên, từ thủ công cho đến công cụ hoặc các đặc điểm nhận dạng. Ở đây, tớ dùng cách thủ công đó là kiểm tra `robots.txt` và viewsource <("). Để kiểm tra file `robots.txt` thì hãy thêm phần ```/robots.txt``` vào web nhé.
 
-![](https://github.com/dirtycoins/emptygroup/blob/main/1.png) 
+![image](https://user-images.githubusercontent.com/53977417/137295460-c4c0f653-3fc2-4e4c-a2ca-c9e322d0e860.png)
 
 Theo hình ta thấy, cấu trúc này nó `disallow` path `/administrator/` nếu các bạn đã từng kiểm tra nhiều thì chỉ cần nhìn phần này ta có thể đoán được đây là mã nguồn Joomla rồi. Thử truy cập vào path `/administrator` này để ta có thể biết rõ mã nguồn gì nhé. 
 
-![](https://github.com/dirtycoins/emptygroup/blob/main/2.png)
+![image](https://user-images.githubusercontent.com/53977417/137295534-045d56bc-3205-4317-9197-ded9476e0551.png)
 
 Chuẩn rồi đó, `JOOMLA` tiếp theo đối với phần thông số `version` nhìn vào giao diện này tớ đoán đây là phiên bản cũ, đối với các phiên bản cũ bạn có thể viewsource vì nó có để version trong này. Ấn tổ hợp phím `CTRL + U` hoặc chuột phải chọn `Viewsource` nhé.
 
-![](https://github.com/dirtycoins/emptygroup/blob/main/3.png)
+![image](https://user-images.githubusercontent.com/53977417/137295610-c950244f-1926-44ab-926c-b73315310103.png)
 
 ```html
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
